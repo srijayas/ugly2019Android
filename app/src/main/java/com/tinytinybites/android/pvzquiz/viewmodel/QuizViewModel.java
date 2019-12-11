@@ -9,12 +9,14 @@ import android.os.CountDownTimer;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.DrawableRes;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import org.greenrobot.eventbus.EventBus;
 import com.tinytinybites.android.pvzquiz.BR;
 import com.tinytinybites.android.pvzquiz.R;
+import com.tinytinybites.android.pvzquiz.activity.DashboardActivity;
 import com.tinytinybites.android.pvzquiz.event.CloseQuizEvent;
 import com.tinytinybites.android.pvzquiz.event.NextQuizEvent;
 import com.tinytinybites.android.pvzquiz.model.Choice;
@@ -160,6 +162,8 @@ public class QuizViewModel extends BaseObservable implements ViewModel, Parcelab
         if(mQuiz.getChosen() != null){
             if(mQuiz.getChosen().equals(currentChoice)){
                 if(currentChoice.getIsTheCorrectAnswer()) {
+                    Log.i(TAG, "CORRECT ANSWER");
+                    DashboardActivity.btt.write("1".getBytes());
                     return ResourceUtil.GetColor(R.color.button_quiz_choice_correct);
                 }else{
                     return ResourceUtil.GetColor(R.color.button_quiz_choice_wrong);

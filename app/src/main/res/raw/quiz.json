@@ -1,16 +1,16 @@
 {
-  "category" : "General Knowledge",
+  "category" : "Christmas Quiz!",
   "quizes" : [{
     "question" : "The moon is a",
     "choices" : [{"Comet" : false}, {"Galaxy": false}, {"Satellite": true}, {"Star": false}, {"Planet": false}]
   },
   {
-    "question" : "Who receives Dronacharya Award?",
-    "choices" : [{"Teachers": false}, {"Scientists" : false}, {"Movie Actors": false}, {"Sport Coaches": true}, {"Sportmen": false}]
+    "question" : "What color are aircraft black boxes?",
+    "choices" : [{"Black": false}, {"Blue" : false}, {"Purple": false}, {"Orange": true}, {"White": false}]
   },
   {
-    "question" : "In which year India Joined the United Nations?",
-    "choices" : [{"1954" : false}, {"1955": true}, {"1956": false}, {"1957": false}, {"1958": false}]
+    "question" : "What kind of animal is a prairie dog?",
+    "choices" : [{"Dog" : false}, {"Rodent": true}, {"Puppy": false}, {"Pig": false}, {"It's a bird": false}]
   },
   {
     "question" : "Who discovered magnetic field of electric current?",
@@ -21,16 +21,16 @@
     "choices" : [{"U. S. A." : true}, {"Alaska": false}, {"France": false}, {"China": false}, {"Maldives": false}]
   },
   {
-    "question" : "The equator passes through which of the following continents?",
-    "choices" : [{"Africa" : true}, {"Australia": false}, {"Europe": false}, {"North America": false}, {"South America": false}]
+    "question" : "Equador is in which continent?",
+    "choices" : [{"Africa" : false}, {"Australia": false}, {"Europe": false}, {"North America": false}, {"South America": true}]
   },
   {
-    "question" : "How many goals were scored in the 2010 FIFA World Cup?",
-    "choices" : [{"75" : false}, {"130": false}, {"145": true}, {"185": false}, {"212": false}]
+    "question" : "Which country do kiwifruit originate from?",
+    "choices" : [{"Japan" : false}, {"New Zealand": false}, {"China": true}, {"India": false}, {"Mexico": false}]
   },
   {
-    "question" : "How many presidents of France had there been as at 2010?",
-    "choices" : [{"7" : false}, {"12": false}, {"21": false}, {"23": true}, {"35": false}]
+    "question" : "How many squares are there on a chess board?",
+    "choices" : [{"100" : false}, {"110": false}, {"81": false}, {"64": true}, {"49": false}]
   },
   {
     "question" : "Which one of the following is a fast growing tree?",
@@ -39,6 +39,53 @@
   {
     "question" : "In which year were Concorde planes retired from service?",
     "choices" : [{"1998" : false}, {"2000": false}, {"2002": false}, {"2003": true}, {"2006": false}]
-  }]
+  },
+    {
+      "question" : "What are espadrilles?",
+      "choices" : [{"Sandals" : true}, {"Enchilladas": false}, {"Hat": false}, {"Villa": false}, {"None of the above": false}]
+    },
+    {
+      "question" : "How many strings does a cello have?",
+      "choices" : [{"5" : false}, {"4": true}, {"3": false}, {"6": false}, {"7": false}]
+    },
+    {
+      "question" : "How many sides does a dodecagon have? ",
+      "choices" : [{"22" : false}, {"20": false}, {"15": false}, {"12": true}, {"10": false}]
+    },
+    {
+      "question" : "What animal's diet is made up almost entirely of eucalypti leaves?",
+      "choices" : [{"None of the below" : false}, {"Sloth": false}, {"Grizzly Bear": false}, {"Koala": true}, {"Panda": false}]
+    },
+    {
+      "question" : "You are looking at the famous painting Starry Night. Who is the artist?",
+      "choices" : [{"Claude Monet" : false}, {"Michelangelo": false}, {"Vincent van Gogh": true}, {"Pablo Picasso": false}, {"Edvard Munch": false}]
+    },
+    {
+      "question" : "How do crickets hear?",
+      "choices" : [{"Through their wings" : false}, {"Through their belly": false}, {"Through their knees": true}, {"Through their tongue": false}, {"They dont hear": false}]
+    },
+    {
+      "question" : "In ‘Ben Hur’, which modern thing can be seen during the chariot scene?",
+      "choices" : [{"Waitress" : false}, {"Car": true}, {"Postbox": false}, {"street lamp": false}, {"coffee": false}]
+    },
+    {
+      "question" : "What perspires half a pint of fluid a day?",
+      "choices" : [{"scalp" : false}, {"armpits": false}, {"feet": true}, {"head": false}, {"palms": false}]
+    },
+    {
+      "question" : "Which one of these planets rotates clockwise?",
+      "choices" : [{"Mercury" : false}, {"Venus": true}, {"Earth": false}, {"Mars": false}, {"Jupiter": false}]
+    },
+    {
+      "question" : "What color is Absynth?",
+      "choices" : [{"Brown" : false}, {"Black": false}, {"Purple": false}, {"Green": true}, {"Blue": false}]
+    },
+    {
+      "question" : "What does N stand in NATO?",
+      "choices" : [{"North" : true}, {"National": false}, {"Never": false}, {"News": false}, {"None": false}]
+    }
+
+
+  ]
 
 }

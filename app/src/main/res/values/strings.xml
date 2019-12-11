@@ -1,6 +1,11 @@
 <resources>
+
     <string name="app_name">PvZQuiz</string>
     <string name="action_settings">Settings</string>
+
+    <string name="relay">Relay</string>
+    <string name="light">Light</string>
+    <string name="textview">TextView</string>
 
     <!-- UI elements -->
     <string name="transition_close_button" translatable="false">transition_close_button</string>
