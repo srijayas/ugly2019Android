@@ -57,10 +57,10 @@ public class QuizViewModel extends BaseObservable implements ViewModel, Parcelab
                     }
 
                     public void onFinish() {
-                        mChoicesDisabled = true;
-                        mCountDownTime = 0;
-                        mQuiz.setChosen(new Choice());
-                        notifyChange();
+//                        mChoicesDisabled = true;
+//                        mCountDownTime = 0;
+//                        mQuiz.setChosen(new Choice());
+//                        notifyChange();
                     }
                 }.start();
             }
@@ -176,7 +176,19 @@ public class QuizViewModel extends BaseObservable implements ViewModel, Parcelab
         }
         return ResourceUtil.GetColor(R.color.button_quiz_choice_default);
     }
-
+    public String getResultText(){
+        String str1 = "Right Answer! Dispensing Candy...";
+        String str2 = "No Candy for you :(";
+        if(mQuiz.getChosen() != null) {
+            if (mQuiz.getChosen().getIsTheCorrectAnswer()) {
+                return str1;
+            } else {
+                return str2;
+            }
+        } else {
+            return "Pick your answer wisely";
+        }
+    }
     public int getNextButtonVisibility(){
         return mQuiz.getChosen() != null ? View.VISIBLE : View.GONE;
     }

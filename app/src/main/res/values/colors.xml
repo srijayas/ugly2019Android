@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary">#009688</color>
-    <color name="primary_dark">#d81748</color>
+    <color name="primary">#0F8A5F</color>
+    <color name="result_text">#235E6F</color>
+    <color name="primary_dark">#CC231E</color>
     <color name="primary_light">#B2DFDB</color>
+    <color name="primary_bk">#CDD873</color>
+
     <color name="accent">#FFC107</color>
     <color name="primary_text">#212121</color>
     <color name="secondary_text">#757575</color>
@@ -11,8 +14,8 @@
 
     <!-- Button -->
     <color name="button_main_text">#FFFFFF</color>
-    <color name="button_quiz_choice_correct">#8eb476</color>
-    <color name="button_quiz_choice_wrong">#e27f7f</color>
+    <color name="button_quiz_choice_correct">#35A65F</color>
+    <color name="button_quiz_choice_wrong">#F5624D</color>
     <color name="button_quiz_choice_default">#FFFFFF</color>
 
 </resources>

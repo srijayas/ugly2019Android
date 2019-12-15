@@ -11,6 +11,7 @@
         <variable
             name="sessionViewModel"
             type="com.tinytinybites.android.pvzquiz.viewmodel.SessionViewModel"/>
+
     </data>
 
     <RelativeLayout
@@ -97,7 +98,10 @@
             <!-- Single container for scrollview -->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:background="@drawable/christmas_background"
+                >
+
 
                 <!-- Question Container-->
                 <android.support.v7.widget.CardView
@@ -115,18 +119,21 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        >
 
                         <!-- Category -->
                         <TextView
                             style="@style/Quiz.Question.Category"
                             android:id="@+id/quiz_category"
-                            android:layout_width="wrap_content"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@{quizViewModel.quiz.question.category}"
                             android:layout_gravity="center_horizontal"
                             android:layout_marginBottom="@dimen/quiz_category_margin_bottom"
                             tools:text="Random"/>
+
+
 
                         <!-- Question -->
                         <TextView
@@ -136,6 +143,17 @@
                             android:layout_height="wrap_content"
                             android:text="@{quizViewModel.quiz.question.content}"
                             tools:text="Which country has the largest population in the world?"/>
+
+                        <!--Sri-->
+                        <TextView
+                            android:id="@+id/quiz_result"
+                            style="@style/Quiz.Question.ResultText"
+                            android:layout_width="227dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/quiz_category_margin_bottom"
+
+                            android:text="@{quizViewModel.getResultText()}"
+                            tools:text="Pick your answer wisely" />
 
                     </LinearLayout>
 
@@ -156,6 +174,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/christmas_background"
                     android:layout_below="@+id/question_cardview"
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/quiz_choices_container_padding_bottom"

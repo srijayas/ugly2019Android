@@ -1,28 +1,28 @@
 {
-  "category" : "Christmas Quiz!",
+  "category" : "Santa Quiz!",
   "quizes" : [{
-    "question" : "The moon is a",
-    "choices" : [{"Comet" : false}, {"Galaxy": false}, {"Satellite": true}, {"Star": false}, {"Planet": false}]
+    "question" : "Who was the star of the Christmas movie Jingle All the Way?",
+    "choices" : [{"Nick Cage" : false}, {"Brendan Frazer": false}, {"Schwarzenegger": true}, {"Santa": false}, {"Tim Allen": false}]
   },
   {
-    "question" : "What color are aircraft black boxes?",
-    "choices" : [{"Black": false}, {"Blue" : false}, {"Purple": false}, {"Orange": true}, {"White": false}]
+    "question" : "Who was the author of A Christmas Carol?",
+    "choices" : [{"Clement Moore": false}, {"Johnny Marks" : false}, {"Bing Crosby": false}, {"Charles Dickens": true}, {"Dylan Thomas": false}]
   },
   {
     "question" : "What kind of animal is a prairie dog?",
     "choices" : [{"Dog" : false}, {"Rodent": true}, {"Puppy": false}, {"Pig": false}, {"It's a bird": false}]
   },
   {
-    "question" : "Who discovered magnetic field of electric current?",
-    "choices" : [{"Ampere" : false}, {"Faraday": true}, {"Fleming": false}, {"Edison": false}, {"Galileo": false}]
+    "question" : "How many ghosts are there in A Christmas Carol?",
+    "choices" : [{"Three" : false}, {"Four": true}, {"Five": false}, {"Ten": false}, {"Zero": false}]
   },
   {
-    "question" : "The Yellow Stone National Park is in",
-    "choices" : [{"U. S. A." : true}, {"Alaska": false}, {"France": false}, {"China": false}, {"Maldives": false}]
+    "question" : "What was the name of the animated Christmas movie featuring Tom Hanks?",
+    "choices" : [{"The Polar Express" : true}, {"Toy Story": false}, {"Zootopia": false}, {"Kungfu Panda": false}, {"Frozen": false}]
   },
   {
-    "question" : "Equador is in which continent?",
-    "choices" : [{"Africa" : false}, {"Australia": false}, {"Europe": false}, {"North America": false}, {"South America": true}]
+    "question" : "Stollen is the traditional fruit cake of which country??",
+    "choices" : [{"Africa" : false}, {"Australia": false}, {"Europe": false}, {"North America": false}, {"Germany": true}]
   },
   {
     "question" : "Which country do kiwifruit originate from?",
@@ -37,8 +37,8 @@
     "choices" : [{"Teak" : false}, {"Eucalyptus": true}, {"Banyan": false}, {"Coconut": false}, {"White Cedars": false}]
   },
   {
-    "question" : "In which year were Concorde planes retired from service?",
-    "choices" : [{"1998" : false}, {"2000": false}, {"2002": false}, {"2003": true}, {"2006": false}]
+    "question" : "What does Alvin want for Christmas?",
+    "choices" : [{"An iPod" : false}, {"A Bottle of Rum": false}, {"A Hula Hoop": true}, {"New Car": false}, {"Nothing": false}]
   },
     {
       "question" : "What are espadrilles?",
@@ -49,8 +49,8 @@
       "choices" : [{"5" : false}, {"4": true}, {"3": false}, {"6": false}, {"7": false}]
     },
     {
-      "question" : "How many sides does a dodecagon have? ",
-      "choices" : [{"22" : false}, {"20": false}, {"15": false}, {"12": true}, {"10": false}]
+      "question" : "What color is the Grinch? ",
+      "choices" : [{"Purple" : false}, {"Yellow": false}, {"Blue": false}, {"Green": true}, {"Blue-green": false}]
     },
     {
       "question" : "What animal's diet is made up almost entirely of eucalypti leaves?",
@@ -73,16 +73,16 @@
       "choices" : [{"scalp" : false}, {"armpits": false}, {"feet": true}, {"head": false}, {"palms": false}]
     },
     {
-      "question" : "Which one of these planets rotates clockwise?",
-      "choices" : [{"Mercury" : false}, {"Venus": true}, {"Earth": false}, {"Mars": false}, {"Jupiter": false}]
+      "question" : "Which reindeer's name starts with a 'B'?",
+      "choices" : [{"Bart" : false}, {"Blitzen": true}, {"Bodog": false}, {"Burt": false}, {"Bo": false}]
     },
     {
       "question" : "What color is Absynth?",
       "choices" : [{"Brown" : false}, {"Black": false}, {"Purple": false}, {"Green": true}, {"Blue": false}]
     },
     {
-      "question" : "What does N stand in NATO?",
-      "choices" : [{"North" : true}, {"National": false}, {"Never": false}, {"News": false}, {"None": false}]
+      "question" : "Which spirit is traditionally added to butter and served with Christmas pudding?",
+      "choices" : [{"Brandy" : true}, {"Rum": false}, {"Vodka": false}, {"Whisky": false}, {"None": false}]
     }
 
 
